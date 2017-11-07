@@ -67,6 +67,8 @@
 
 ## Due Date
 
+> Winner winner chicken dinner!
+
 Nov 19,2017 Lab Meetup
 
 
