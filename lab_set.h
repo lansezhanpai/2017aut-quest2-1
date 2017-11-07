@@ -25,6 +25,7 @@ struct lab__set_api_st{
     SetIterator (*begin)(SetDescriptor* desc);
     SetIterator (*end)(SetDescriptor* desc);
     SetIterator (*iter_prev)(SetIterator it);
+    void* (*iter_dereference)(SetIterator it);
     SetIterator (*iter_next)(SetIterator it);
     void (*clear)(SetDescriptor* desc);
     void (*destructor)(SetDescriptor* desc);
